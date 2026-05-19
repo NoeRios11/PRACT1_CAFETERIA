@@ -72,14 +72,14 @@ namespace PRACT1_CAFETERIA
             bebida_3.AplicarDescuento(35);
 
             Console.WriteLine("\n PREPARACION DE LAS BEBIDAS");
-            bebida_1.Preparar();
-            bebida_2.Preparar();
-            bebida_3.Preparar();
+            Console.WriteLine (bebida_1.Preparar());
+            Console.WriteLine( bebida_2.Preparar());
+            Console.WriteLine(bebida_3.Preparar());
 
             Console.WriteLine("\n DESCRIPCION DE LAS BEBIDAS");
-            bebida_1.MostrarDescripcion();
-            bebida_2.MostrarDescripcion();
-            bebida_3.MostrarDescripcion();
+            Console.WriteLine( bebida_1.MostrarDescripcion());
+            Console.WriteLine(bebida_2.MostrarDescripcion());
+            Console.WriteLine(bebida_3.MostrarDescripcion());
 
             Console.ReadKey();
         }
